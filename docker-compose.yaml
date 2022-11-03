@@ -5,7 +5,7 @@ services:
     build: .
     container_name: go-app
     volumes:
-      - .:/go/src/ # remover
+      - .:/go/src/
     extra_hosts:
       - "host.docker.internal:172.17.0.1"
 
